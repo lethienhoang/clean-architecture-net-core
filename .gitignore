@@ -24,3 +24,6 @@ Hx.Api/obj/
 Hx.Contracts/obj/
 Hx.Contracts/bin/
 Hx.Api/bin/
+Framework/Framework.MongoDb/
+Framework/Framework/bin/
+
