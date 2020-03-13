@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.Sql\Framework.Sql.csproj" />
+    <ProjectReference Include="..\Framework\Framework\Framework.csproj" />
+    <ProjectReference Include="..\Petronas.Domain\Hx.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
