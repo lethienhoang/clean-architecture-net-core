@@ -35,7 +35,7 @@ namespace Hx.Core.Models
 
         public string Email { get; private set; }
 
-        public ICollection<UserRoles> UserRoles { get; private set; }
+        public ICollection<UserRole> UserRoles { get; private set; }
 
         public string PasswordHash { get; private set; }
 
@@ -56,7 +56,7 @@ namespace Hx.Core.Models
             {
                 foreach(var roleId in roleIds)
                 {
-                    UserRoles.Add(new UserRoles(roleId, Id));
+                    UserRoles.Add(new UserRole(roleId, Id));
                 }
             }
         }

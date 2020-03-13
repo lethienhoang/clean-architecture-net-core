@@ -4,14 +4,14 @@ using System.Collections.Generic;
 
 namespace Hx.Core.Models
 {
-    public class UserRoles : ValueObjectBase
+    public class UserRole : ValueObjectBase
     {
-        protected UserRoles()
+        protected UserRole()
         {
 
         }
 
-        public UserRoles(Guid roleId, Guid userId)
+        public UserRole(Guid roleId, Guid userId)
         {
             RoleId = roleId;
             UserId = userId;

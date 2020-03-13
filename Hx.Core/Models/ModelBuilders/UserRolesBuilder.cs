@@ -9,7 +9,7 @@ namespace Hx.Core.Models.ModelBuilders
     {
         public static void Build(ModelBuilder modelBuilder)
         {
-            var entity = modelBuilder.Entity<UserRoles>();
+            var entity = modelBuilder.Entity<UserRole>();
 
             entity.HasOne(s => s.User)
                 .WithMany(s => s.UserRoles)

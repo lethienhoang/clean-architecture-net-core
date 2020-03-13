@@ -17,6 +17,10 @@ Framework/Framework/debug/
 Hx.Services/obj/
 Hx.Services/bin/
 Hx.Core/obj/
+Hx.Core/bin/
+Hx.Domain/bin/
 Hx.Domain/obj/
 Hx.Api/obj/
 Hx.Contracts/obj/
+Hx.Contracts/bin/
+Hx.Api/bin/

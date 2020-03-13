@@ -17,6 +17,6 @@ namespace Hx.Core.Models
 
         public string RoleName { get; private set; }
 
-        public ICollection<UserRoles> UserRoles { get; private set; }
+        public ICollection<UserRole> UserRoles { get; private set; }
     }
 }

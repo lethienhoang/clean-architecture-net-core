@@ -7,7 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Framework\Framework.Sql\Framework.Sql.csproj" />
     <ProjectReference Include="..\Framework\Framework\Framework.csproj" />
-    <ProjectReference Include="..\Petronas.Domain\Hx.Domain.csproj" />
+    <ProjectReference Include="..\Hx.Domain\Hx.Domain.csproj" />
   </ItemGroup>
 
 </Project>

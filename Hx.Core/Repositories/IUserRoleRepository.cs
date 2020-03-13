@@ -2,7 +2,7 @@
 
 namespace Hx.Core.Repositories
 {
-    public interface IUserRoleRepository : IGenericRepository<UserRoles>
+    public interface IUserRoleRepository : IGenericRepository<UserRole>
     {
     }
 }

@@ -1,10 +1,16 @@
-﻿using System;
+﻿using Hx.Core.Models;
+using Hx.Core.Repositories;
+using Hx.Domain.Db;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Hx.Domain.Repositories
 {
-    class UserRoleRepository
+    public class UserRoleRepository : GenericRepository<UserRole>, IUserRoleRepository
     {
+        public UserRoleRepository(DomainContext context) : base(context)
+        {
+        }
     }
 }
